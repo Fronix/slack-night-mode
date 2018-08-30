@@ -11,21 +11,25 @@ This theme requires that you use [a user styles extension](https://github.com/op
 
 No official support. Workarounds exist.
 
-##Current workaround
+_Current workaround_
+
 Open the ssb-interop.js file
+
+
 PC: `C:/Users/<User>/AppData/Local/slack/app-3.2.0/resources/app.asar.unpacked/src/static/ssb-interop.js`
+
 Mac: `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static/ssb-interop.js`
 
 At the end of the file inside the wrapped if statement add this EventListener:
 
-`document.addEventListener('DOMContentLoaded', function() {
- $.ajax({
-   url: 'https://raw.githubusercontent.com/laCour/slack-night-mode/master/css/raw/black.css',
-   success: function(css) {
-     $("<style></style>").appendTo('head').html(css);
-   }
- });
-});`
+    document.addEventListener('DOMContentLoaded', function() {
+     $.ajax({
+       url: 'https://raw.githubusercontent.com/laCour/slack-night-mode/master/css/raw/black.css',
+       success: function(css) {
+          $("<style></style>").appendTo('head').html(css);
+       }
+       });
+       });
 
 If you want to use your own .css file you can fork the project and read [CONTRIBUTION.md](https://github.com/laCour/slack-night-mode/blob/master/CONTRIBUTING.md) and follow the instructions.
 
