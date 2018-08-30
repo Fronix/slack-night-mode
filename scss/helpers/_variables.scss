@@ -5,16 +5,18 @@ $color-red: #bf360c !default;
 $color-green: adjust-hue($color-red, 140) !default;
 
 $color-shade-darkest: #000 !default;
-$color-shade-dark: #fff !default;
-$color-shade-mid: #fff !default;
-$color-shade-light: #fff !default;
-$color-shade-lightest: #fff !default;
+$color-shade-dark: #363636 !default;
+$color-shade-mid: #424242 !default;
+$color-shade-light: #545454 !default;
+$color-shade-lightest: #828282 !default;
 
 // Font Colors
 $base-font-color: #e6e6e6 !default;
 
 $base-link-color: $color-highlight !default;
 $base-link-color-active: #c7c7c7 !default;
+
+$flex-menu-font-color: green !default;
 
 // Grayscale Colors
 $black: #000;
