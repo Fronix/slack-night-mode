@@ -92,19 +92,21 @@
   }
 }
 
-#menu_body {
-  background-color: $color-shade-dark;
+// #menu_body {
+//   background-color: $color-shade-dark;
   
-  ul.menu_list a, a:link, a:visited {
+//   ul.menu_list a, a:link, a:visited {
+//     color: $flex-menu-font-color;
+//   }
+// }
+
+// #menu_item_scroller {
+//     background-color: $color-base;
+//     color: $flex-menu-font-color;
+// }
+  .menu_item_label {
     color: $flex-menu-font-color;
   }
-}
-
-#menu_item_scroller {
-    background-color: $color-base;
-    color: $flex-menu-font-color;
-}
-
 #menu_items {
   .menu_item_label {
     color: $flex-menu-font-color;
