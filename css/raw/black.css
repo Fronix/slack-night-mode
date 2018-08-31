@@ -736,7 +736,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #flex_menu_toggle.open #help_icon_circle_count { background-color: #fff; color: #e6e6e6; }
 
-.menu_item_label { color: green; }
+#menu_items_scroller .menu_item_label { color: green; }
 
 #menu_items .menu_item_label { color: green; }
 

@@ -104,9 +104,11 @@
 //     background-color: $color-base;
 //     color: $flex-menu-font-color;
 // }
+#menu_items_scroller{
   .menu_item_label {
     color: $flex-menu-font-color;
   }
+}
 #menu_items {
   .menu_item_label {
     color: $flex-menu-font-color;
