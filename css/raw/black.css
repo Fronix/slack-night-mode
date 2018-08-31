@@ -738,6 +738,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 #menu_items_scroller .menu_item_label { color: green; }
 
+#menu_items_scroller a.overflow_ellipsis { color: green; }
+
 #menu_items .menu_item_label { color: green; }
 
 #canvases_toggle.active, #details_toggle.active, #recent_mentions_toggle.active, #sli_recap_toggle.active, #stars_toggle.active { background: #363636; color: #e6e6e6; }

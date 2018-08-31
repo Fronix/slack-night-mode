@@ -92,20 +92,12 @@
   }
 }
 
-// #menu_body {
-//   background-color: $color-shade-dark;
-  
-//   ul.menu_list a, a:link, a:visited {
-//     color: $flex-menu-font-color;
-//   }
-// }
-
-// #menu_item_scroller {
-//     background-color: $color-base;
-//     color: $flex-menu-font-color;
-// }
 #menu_items_scroller{
   .menu_item_label {
+    color: $flex-menu-font-color;
+  }
+
+  a.overflow_ellipsis { //needs to exist because Analytics button doesn't use span
     color: $flex-menu-font-color;
   }
 }
