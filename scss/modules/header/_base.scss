@@ -92,9 +92,16 @@
   }
 }
 
-.menu_item_label {
-  color: $flex-menu-font-color;
+#menu_item_scroller {
+    background-color: $color-base;
 }
+
+#menu_items {
+  .menu_item_label {
+    color: $flex-menu-font-color;
+  }
+}
+
 
 #canvases_toggle,
 #details_toggle,
